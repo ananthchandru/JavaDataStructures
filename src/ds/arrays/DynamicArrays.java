@@ -2,6 +2,7 @@ package ds.arrays;
 
 
 //First we need members and constructors to initialise the array.
+//reference - https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/
 public class DynamicArrays {
 	
 	private int[] array;
@@ -22,6 +23,44 @@ public class DynamicArrays {
 		count++;
 	}
 	
+	
+	public void addAt(int index, int element) {
+		if(size == count) {
+			growArray();
+		}
+		for(int i= count-1; i>index; i--) {
+			array[i+1] = array[i];
+		}
+		array[index] = element;
+		count++;
+	}
+	
+	public void remove() {
+		if(count > 0) {
+			array[count-1] = 0;
+			count--;
+		}
+	}
+	
+	public void removeAt(int index) {
+		for(int i=index; i<count;i++) {
+			array[i] = array[i+1];
+		}
+		array[count-1] = 0;
+		count--;
+	}
+	
+	public void shrinkSize() {
+		if(count > 0) {
+			int temp[] = new int[count];
+			for(int i=0; i< count; i++ ) {
+				temp[i] = array[i];
+			}
+			array = temp;
+			size = count;
+		}
+	}
+	
 	public void growArray() {
 		int temp[] = new int[2*size];
 		for(int i=0;i<size; i++ ) {
@@ -33,12 +72,28 @@ public class DynamicArrays {
 	
 	public static void main(String[] args) {
 		DynamicArrays arr = new DynamicArrays();
+//		
+//		int[] array = new int[100];
+//		System.out.println(array.length);
+//		int[] newArray = new int[2];
+//		array = newArray;
+//		System.out.println(array.length);
 		
 		arr.add(5);
 		System.out.println(arr.size);
-		arr.add(6);
+		arr.addAt(1,6);
 		System.out.println(arr.size);
+		arr.addAt(2, 0);
+		System.out.println(arr.size);
+		arr.add(4);
+		arr.add(6);
 		arr.add(7);
+		System.out.println(arr.size);
+		arr.removeAt(2);
+		arr.remove();
+		arr.shrinkSize();
+		System.out.println(arr.size);
+		arr.shrinkSize();
 		System.out.println(arr.size);
 	}
 
