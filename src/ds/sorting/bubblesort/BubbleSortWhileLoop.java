@@ -1,6 +1,6 @@
-package ds.sorting;
+package ds.sorting.bubblesort;
 
-public class BubbleSort {
+public class BubbleSortWhileLoop {
 
 	public static void main(String[] args) {
 	//	int[] a= {5,4,3,2,1};
