@@ -4,7 +4,7 @@ public class InsertInUnsortedArray {
 	
 	  static int insert(int arr[], int n, int key, int capacity)
 	  {
-	    // Cannot insert more elements if n is >= capacity
+	    // Cannot insert more elements if n is >= capacity
 	    if (n >= capacity)
 	      return n;
 	    arr[n] = key;

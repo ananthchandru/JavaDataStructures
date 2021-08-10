@@ -1,6 +1,8 @@
 package ds.arrays;
 
 
+import java.util.Arrays;
+
 //First we need members and constructors to initialise the array.
 //reference - https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/
 public class DynamicArrays {
@@ -37,8 +39,8 @@ public class DynamicArrays {
 	
 	public void remove() {
 		if(count > 0) {
-			array[count-1] = 0;
-			count--;
+            count--;
+			array[count] = 0;
 		}
 	}
 	
@@ -46,16 +48,13 @@ public class DynamicArrays {
 		for(int i=index; i<count;i++) {
 			array[i] = array[i+1];
 		}
-		array[count-1] = 0;
-		count--;
+        count--;
+		array[count] = 0;
 	}
 	
 	public void shrinkSize() {
 		if(count > 0) {
-			int temp[] = new int[count];
-			for(int i=0; i< count; i++ ) {
-				temp[i] = array[i];
-			}
+			int temp[] = Arrays.copyOf(array, count);
 			array = temp;
 			size = count;
 		}
