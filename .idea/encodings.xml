@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/src/ds/arrays/InsertInUnsortedArray.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Test.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/Test.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/arrays/DynamicArraySorted.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/arrays/DynamicArrays.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/arrays/InsertInUnsortedArray.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/arrays/LinearSearchUnsortedArray.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/bubblesort/BubbleSortForLoop.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/bubblesort/BubbleSortReverseIteration.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/bubblesort/BubbleSortWhileLoop.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/bucketsort/BucketSort.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/countingsort/CountingSort.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/countingsort/CountingSort2.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/insertionsort/InsertionSort.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/mergesort/MergeSort.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/quicksort/QuickSortHoares.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/quicksort/QuickSortLomuto.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/quicksort/QuickSortMedianOfThree.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/radixsort/RadixSort.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/selectionsort/SelectionSort.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/selectionsort/SelectionSortWhileLoop.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/sorting/shellsort/ShellSort.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/BinarySearchTree.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/BinaryTreeQueue.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/BuildBSTFromInorder.java" charset="UTF-16" />
   </component>
 </project>
