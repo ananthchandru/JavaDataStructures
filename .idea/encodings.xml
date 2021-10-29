@@ -2,7 +2,6 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/Test.java" charset="UTF-16" />
-    <file url="file://$PROJECT_DIR$/src/Test.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/arrays/DynamicArraySorted.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/arrays/DynamicArrays.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/arrays/InsertInUnsortedArray.java" charset="UTF-16" />
@@ -22,8 +21,13 @@
     <file url="file://$PROJECT_DIR$/src/ds/sorting/selectionsort/SelectionSort.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/sorting/selectionsort/SelectionSortWhileLoop.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/sorting/shellsort/ShellSort.java" charset="UTF-16" />
-    <file url="file://$PROJECT_DIR$/src/ds/trees/BinarySearchTree.java" charset="UTF-16" />
-    <file url="file://$PROJECT_DIR$/src/ds/trees/BinaryTreeQueue.java" charset="UTF-16" />
-    <file url="file://$PROJECT_DIR$/src/ds/trees/BuildBSTFromInorder.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/Node.java" charset="UTF-16BE" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/binarysearchtree/BuildBSTFromInorder.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/binarysearchtree/recursion/BinarySearchTree.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/binarysearchtree/recursion/BinarySearchTree.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/binarytree/BinaryTreeInsertUsingQueue.java" charset="UTF-16BE" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/binarytree/BinaryTreeQueue.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/trees/binarytree/recursion/BinaryTree.java" charset="UTF-16" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
