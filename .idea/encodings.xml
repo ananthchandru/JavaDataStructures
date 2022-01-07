@@ -6,8 +6,13 @@
     <file url="file://$PROJECT_DIR$/src/ds/arrays/DynamicArrays.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/arrays/InsertInUnsortedArray.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/arrays/LinearSearchUnsortedArray.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/lists/CircularLinkedList.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/lists/DoublyLinkedList.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/lists/LinkedList.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/lists/Node.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/queue/QNode.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/queue/QueueUsingArray.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/queue/QueueUsingLinkedList.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/sorting/bubblesort/BubbleSortForLoop.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/sorting/bubblesort/BubbleSortReverseIteration.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/sorting/bubblesort/BubbleSortWhileLoop.java" charset="UTF-16" />
@@ -23,6 +28,8 @@
     <file url="file://$PROJECT_DIR$/src/ds/sorting/selectionsort/SelectionSort.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/sorting/selectionsort/SelectionSortWhileLoop.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/sorting/shellsort/ShellSort.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/stack/StackUsingArray.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/stack/StackUsingLinkedList.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/trees/Node.java" charset="UTF-16BE" />
     <file url="file://$PROJECT_DIR$/src/ds/trees/binarysearchtree/BuildBSTFromInorder.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/trees/binarysearchtree/recursion/BinarySearchTree.java" charset="UTF-16" />
