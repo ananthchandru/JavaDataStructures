@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/src/ds/lists/Node.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/queue/QNode.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/queue/QueueUsingArray.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/ds/queue/QueueUsingArray_Old.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/queue/QueueUsingLinkedList.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/sorting/bubblesort/BubbleSortForLoop.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/ds/sorting/bubblesort/BubbleSortReverseIteration.java" charset="UTF-16" />
